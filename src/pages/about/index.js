@@ -30,9 +30,13 @@ export const About = () => {
             <h3 className="color_sec py-4">{dataabout.title}</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
-            <div>
-              <p>{dataabout.aboutme}</p>
-            </div>
+          <div>
+  <p>{dataabout.aboutme.intro}</p>
+  <p>{dataabout.aboutme.aiEnthusiast}</p>
+  <p>{dataabout.aboutme.codeConnoisseur}</p>
+  <p>{dataabout.aboutme.leaderCollaborator}</p>
+</div>
+
           </Col>
         </Row>
         <Row className=" sec_sp">
